@@ -51,16 +51,3 @@ figure {
 .iframe-container-4x3 {
   padding-top: 75%;
 }
-
-.drop {
-	width: 200px;
-	height: 30px; 
-	padding: 10px;
-	border: 1px solid #ccc;
-	border-radius: 4px;
-	appearance: none;
-	-webkit-appearance: none;
-	-moz-appearance: none;
-	background: #fff url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='20' height='20'><path fill='%232C3E50' d='m& 10l5 5 5-5z'/></svg>")
-	background-position: 95% center;
-}
