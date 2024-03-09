@@ -9,8 +9,8 @@ Licence URI: https://www.os-templates.com/template-terms
 File: Layout CSS
 */
 
-@import url("https://people.ucsc.edu/~janabrah/layout/styles/fontawesome-free/css/fontawesome-all.min.css");
-@import url("https://people.ucsc.edu/~janabrah/layout/styles/framework.css");
+@import url("layout/styles/fontawesome-all.min.css");
+@import url("layout/styles/framework.css");
 
 /* Rows
 --------------------------------------------------------------------------------------------------------------- */
