@@ -2984,12 +2984,12 @@
   font-family:Font Awesome\ 5 Brands;
   font-style:normal;
   font-weight:400;
-  src:url(/web/20210103002623im_/https://people.ucsc.edu/~janabrah/layout/styles/fontawesome-free/webfonts/fa-brands-400.eot);
-  src:url(/web/20210103002623im_/https://people.ucsc.edu/~janabrah/layout/styles/fontawesome-free/webfonts/fa-brands-400.eot#iefix) format("embedded-opentype"),
-  url(/web/20210103002623im_/https://people.ucsc.edu/~janabrah/layout/styles/fontawesome-free/webfonts/fa-brands-400.woff2) format("woff2"),
-  url(/web/20210103002623im_/https://people.ucsc.edu/~janabrah/layout/styles/fontawesome-free/webfonts/fa-brands-400.woff) format("woff"),
-  url(/web/20210103002623im_/https://people.ucsc.edu/~janabrah/layout/styles/fontawesome-free/webfonts/fa-brands-400.ttf) format("truetype"),
-  url(/web/20210103002623im_/https://people.ucsc.edu/~janabrah/layout/styles/fontawesome-free/webfonts/fa-brands-400.svg#fontawesome) format("svg")
+  src:url(layout/styles/fontawesome-free/webfonts/fa-brands-400.eot);
+  src:url(layout/styles/fontawesome-free/webfonts/fa-brands-400.eot#iefix) format("embedded-opentype"),
+  url(layout/styles/fontawesome-free/webfonts/fa-brands-400.woff2) format("woff2"),
+  url(layout/styles/fontawesome-free/webfonts/fa-brands-400.woff) format("woff"),
+  url(layout/styles/fontawesome-free/webfonts/fa-brands-400.ttf) format("truetype"),
+  url(layout/styles/fontawesome-free/webfonts/fa-brands-400.svg#fontawesome) format("svg")
 }
 .fab {
   font-family:Font Awesome\ 5 Brands
@@ -2998,12 +2998,12 @@
   font-family:Font Awesome\ 5 Free;
   font-style:normal;
   font-weight:400;
-  src:url(/web/20210103002623im_/https://people.ucsc.edu/~janabrah/layout/styles/fontawesome-free/webfonts/fa-regular-400.eot);
-  src:url(/web/20210103002623im_/https://people.ucsc.edu/~janabrah/layout/styles/fontawesome-free/webfonts/fa-regular-400.eot#iefix) format("embedded-opentype"),
-  url(/web/20210103002623im_/https://people.ucsc.edu/~janabrah/layout/styles/fontawesome-free/webfonts/fa-regular-400.woff2) format("woff2"),
-  url(/web/20210103002623im_/https://people.ucsc.edu/~janabrah/layout/styles/fontawesome-free/webfonts/fa-regular-400.woff) format("woff"),
-  url(/web/20210103002623im_/https://people.ucsc.edu/~janabrah/layout/styles/fontawesome-free/webfonts/fa-regular-400.ttf) format("truetype"),
-  url(/web/20210103002623im_/https://people.ucsc.edu/~janabrah/layout/styles/fontawesome-free/webfonts/fa-regular-400.svg#fontawesome) format("svg")
+  src:url(layout/styles/fontawesome-free/webfonts/fa-regular-400.eot);
+  src:url(layout/styles/fontawesome-free/webfonts/fa-regular-400.eot#iefix) format("embedded-opentype"),
+  url(layout/styles/fontawesome-free/webfonts/fa-regular-400.woff2) format("woff2"),
+  url(layout/styles/fontawesome-free/webfonts/fa-regular-400.woff) format("woff"),
+  url(layout/styles/fontawesome-free/webfonts/fa-regular-400.ttf) format("truetype"),
+  url(layout/styles/fontawesome-free/webfonts/fa-regular-400.svg#fontawesome) format("svg")
 }
 .far {
   font-weight:400
@@ -3012,12 +3012,12 @@
   font-family:Font Awesome\ 5 Free;
   font-style:normal;
   font-weight:900;
-  src:url(/web/20210103002623im_/https://people.ucsc.edu/~janabrah/layout/styles/fontawesome-free/webfonts/fa-solid-900.eot);
-  src:url(/web/20210103002623im_/https://people.ucsc.edu/~janabrah/layout/styles/fontawesome-free/webfonts/fa-solid-900.eot#iefix) format("embedded-opentype"),
-  url(/web/20210103002623im_/https://people.ucsc.edu/~janabrah/layout/styles/fontawesome-free/webfonts/fa-solid-900.woff2) format("woff2"),
-  url(/web/20210103002623im_/https://people.ucsc.edu/~janabrah/layout/styles/fontawesome-free/webfonts/fa-solid-900.woff) format("woff"),
-  url(/web/20210103002623im_/https://people.ucsc.edu/~janabrah/layout/styles/fontawesome-free/webfonts/fa-solid-900.ttf) format("truetype"),
-  url(/web/20210103002623im_/https://people.ucsc.edu/~janabrah/layout/styles/fontawesome-free/webfonts/fa-solid-900.svg#fontawesome) format("svg")
+  src:url(layout/styles/fontawesome-free/webfonts/fa-solid-900.eot);
+  src:url(layout/styles/fontawesome-free/webfonts/fa-solid-900.eot#iefix) format("embedded-opentype"),
+  url(layout/styles/fontawesome-free/webfonts/fa-solid-900.woff2) format("woff2"),
+  url(layout/styles/fontawesome-free/webfonts/fa-solid-900.woff) format("woff"),
+  url(layout/styles/fontawesome-free/webfonts/fa-solid-900.ttf) format("truetype"),
+  url(layout/styles/fontawesome-free/webfonts/fa-solid-900.svg#fontawesome) format("svg")
 }
 .fa,
 .far,
