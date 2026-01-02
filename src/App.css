@@ -180,18 +180,19 @@ a:hover {
 }
 
 .about-section {
-  display: flex;
-  gap: 2rem;
-  align-items: flex-start;
+  overflow: hidden;
 }
 
 .headshot {
+  float: left;
   width: 200px;
   height: 200px;
   border-radius: 50%;
   object-fit: cover;
   border: 4px solid var(--accent-color);
-  flex-shrink: 0;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+  shape-outside: circle(50%);
 }
 
 .about-text h1 {
@@ -368,14 +369,19 @@ a:hover {
   }
 
   .about-section {
-    flex-direction: column;
-    align-items: center;
     text-align: center;
   }
 
   .headshot {
+    float: none;
+    display: block;
+    margin: 0 auto 1rem auto;
     width: 150px;
     height: 150px;
+  }
+
+  .about-text {
+    text-align: left;
   }
 
   .page-content {
