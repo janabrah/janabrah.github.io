@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
-import { PROJECTS_BY_ID } from '../pages/projects/metas';
+import { ALL_PROJECTS_BY_ID } from '../config/allProjects';
 
 interface HoverCardProps {
   projectId: string;
@@ -9,7 +9,7 @@ interface HoverCardProps {
 
 export default function HoverCard({ projectId, children }: HoverCardProps) {
   const [isHovered, setIsHovered] = useState(false);
-  const project = PROJECTS_BY_ID[projectId];
+  const project = ALL_PROJECTS_BY_ID[projectId];
 
   if (!project) {
     return <span>{children}</span>;

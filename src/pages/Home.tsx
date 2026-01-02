@@ -26,23 +26,42 @@ export default function Home() {
               <p>
                 At Meter I work on "operations engineering". I'm a software
                 engineer embedded in the ops team, working to help operators
-                scale their impact as we grow. I own our inventory app, Trident,
-                I'm building an in-house project management tool to track
-                network installs and replace our old dispersed spreadsheet
-                tracking method, I built our primary network health dianostic
-                tool to figure out whether networks are working and why they
-                aren't, and I help contribute to make our networking dashboard
+                scale their impact as we grow. I own our inventory app,{' '}
+                <HoverCard projectId='trident'>Trident</HoverCard>, I'm building
+                an in-house{' '}
+                <HoverCard projectId='project-management'>
+                  project management tool
+                </HoverCard>{' '}
+                to track network installs and replace our old dispersed
+                spreadsheet tracking method, I built a{' '}
+                <HoverCard projectId='network-diagnostics'>
+                  network health diagnostic tool
+                </HoverCard>{' '}
+                which has become the front door to assessing network health for
+                several teams, and I help contribute to make our{' '}
+                <HoverCard projectId='dashboard'>
+                  networking dashboard
+                </HoverCard>{' '}
                 more powerful.
               </p>
               <p>
                 Prior to Meter, I worked at Forward, where we tried to build
                 "The world's best healthcare, for billions of people, for free"
-                (a moonshot that didn't work out, but was worth trying for). I
-                started in the operations team there, owning scheduling and
-                onboarding for our remote fleet of healthcare workers. Then I
-                moved over to be a software engineer where I continued building
-                scalable tools for operations, as well as contributing to our
-                software infrastructure and IT systems.
+                (a moonshot that didn't work out, but I'm glad we tried it). I
+                started in the operations team there, owning{' '}
+                <HoverCard projectId='scheduling'>scheduling</HoverCard> and{' '}
+                <HoverCard projectId='onboarding'>onboarding</HoverCard> for our
+                remote fleet of healthcare workers. Then I moved over to be a
+                software engineer where I continued building scalable tools for
+                operations, including our{' '}
+                <HoverCard projectId='allocations'>scheduling tool</HoverCard>{' '}
+                and our{' '}
+                <HoverCard projectId='forward-inventory'>inventory app</HoverCard>, as
+                well as contributing to our{' '}
+                <HoverCard projectId='infrastructure'>
+                  software infrastructure
+                </HoverCard>{' '}
+                and <HoverCard projectId='it-systems'>IT systems</HoverCard>.
               </p>
               <p>
                 As a scientist, my research has focused on various aspects of

@@ -1,20 +1,19 @@
 import { Link } from 'react-router-dom';
-import { METER_PROJECTS } from './meter/metas';
+import { FORWARD_OPERATIONS_PROJECTS } from './metas';
 
-export default function Meter() {
+export default function ForwardOperations() {
   return (
     <div className="page">
       <div className="page-overlay">
         <article className="page-content">
-          <h1>Meter</h1>
+          <h1>Forward Operations</h1>
           <p>
-            At Meter I work on "operations engineering". I'm a software engineer
-            embedded in the ops team, working to help operators scale their impact
-            as we grow.
+            I started at Forward in the operations team, owning scheduling and
+            onboarding for our remote fleet of healthcare workers.
           </p>
 
           <div className="projects-grid">
-            {METER_PROJECTS.map((project) => (
+            {FORWARD_OPERATIONS_PROJECTS.map((project) => (
               <Link key={project.path} to={project.path} className="project-card">
                 <h2>{project.title}</h2>
                 <p>{project.summary}</p>
