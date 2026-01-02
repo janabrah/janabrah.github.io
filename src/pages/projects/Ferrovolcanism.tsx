@@ -1,9 +1,11 @@
+import { FERROVOLCANISM as meta } from './metas';
+
 export default function Ferrovolcanism() {
   return (
-    <div className="page project-page" style={{ backgroundImage: "url('/images/Ferrovolcanism-Art-Crop.jpg')" }}>
+    <div className="page project-page" style={{ backgroundImage: `url('${meta.background}')` }}>
       <div className="page-overlay">
         <article className="page-content">
-          <h1>Ferrovolcanism</h1>
+          <h1>{meta.title}</h1>
           <p>
             Ferrovolcanism refers to volcanic eruptions of molten iron, which may occur
             on metallic asteroids—the exposed iron cores of differentiated planetesimals.

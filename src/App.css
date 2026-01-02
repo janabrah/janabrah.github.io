@@ -243,6 +243,49 @@ a:hover {
   opacity: 0.9;
 }
 
+.hover-card-wrapper {
+  position: relative;
+  display: inline;
+}
+
+.hover-card-link {
+  color: #5dade2;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
+.hover-card-link:hover {
+  color: #85c1e9;
+}
+
+.hover-card-popup {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.95);
+  border: 1px solid var(--accent-color);
+  border-radius: 8px;
+  padding: 1rem;
+  width: 280px;
+  margin-bottom: 8px;
+  z-index: 100;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.hover-card-popup h4 {
+  color: var(--accent-color);
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.hover-card-popup p {
+  color: var(--light-text);
+  font-size: 0.9rem;
+  margin: 0;
+  line-height: 1.4;
+}
+
 .footer {
   background: var(--header-bg);
   color: var(--light-text);

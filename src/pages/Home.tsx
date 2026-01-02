@@ -1,3 +1,5 @@
+import HoverCard from '../components/HoverCard';
+
 export default function Home() {
   return (
     <div className="page home-page" style={{ backgroundImage: "url('/images/Ferrovolcanism-Art-Crop.jpg')" }}>
@@ -18,8 +20,12 @@ export default function Home() {
               </p>
               <p>
                 My research has focused on various aspects of planetary science,
-                including Europa's global shape, lunar dynamo mechanisms, ferrovolcanism,
-                planetary rotation, and electromagnetic core-mantle coupling.
+                including{' '}
+                <HoverCard projectId="europa-shape">Europa's global shape</HoverCard>,{' '}
+                <HoverCard projectId="lunar-dynamo">lunar dynamo mechanisms</HoverCard>,{' '}
+                <HoverCard projectId="ferrovolcanism">ferrovolcanism</HoverCard>,{' '}
+                <HoverCard projectId="planetary-rotation">planetary rotation</HoverCard>, and{' '}
+                <HoverCard projectId="em-coupling">electromagnetic core-mantle coupling</HoverCard>.
               </p>
               <p>
                 I'm currently working in healthcare operations and software development,

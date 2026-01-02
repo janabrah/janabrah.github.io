@@ -1,6 +1,6 @@
 export { default as Home } from './Home';
 export { default as Contact } from './Contact';
-export { default as Projects } from './Projects';
+export { default as Projects } from './ProjectsPage';
 export { default as Publications } from './Publications';
 export { default as Career } from './career/Career';
 export { default as PlanetaryScience } from './career/PlanetaryScience';

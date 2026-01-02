@@ -1,6 +1,6 @@
 import { Link, Outlet, useLocation } from 'react-router-dom';
 import { useState } from 'react';
-import { careerItems } from '../config/career';
+import { CAREER_ITEMS } from '../config/career';
 
 export default function Layout() {
   const location = useLocation();
@@ -49,7 +49,7 @@ export default function Layout() {
                 Career
               </Link>
               <div className="dropdown-menu">
-                {careerItems.map((item) => (
+                {CAREER_ITEMS.map((item) => (
                   <Link
                     key={item.path}
                     to={item.path}

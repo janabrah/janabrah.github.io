@@ -1,9 +1,11 @@
+import { EM_COUPLING as meta } from './metas';
+
 export default function EMCoupling() {
   return (
-    <div className="page project-page" style={{ backgroundImage: "url('/images/em-coupling-background.jpg')" }}>
+    <div className="page project-page" style={{ backgroundImage: `url('${meta.background}')` }}>
       <div className="page-overlay">
         <article className="page-content">
-          <h1>Electromagnetic Core-Mantle Coupling</h1>
+          <h1>{meta.title}</h1>
           <p>
             The electromagnetic interaction between a planet's liquid metallic core and
             its overlying mantle can significantly affect the planet's rotational dynamics

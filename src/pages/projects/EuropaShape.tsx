@@ -1,9 +1,11 @@
+import { EUROPA_SHAPE as meta } from './metas';
+
 export default function EuropaShape() {
   return (
-    <div className="page project-page" style={{ backgroundImage: "url('/images/europa-background-invert.jpg')" }}>
+    <div className="page project-page" style={{ backgroundImage: `url('${meta.background}')` }}>
       <div className="page-overlay">
         <article className="page-content">
-          <h1>Measuring Europa's Global Shape</h1>
+          <h1>{meta.title}</h1>
           <p>
             I am a member of the UV Spectrograph (UVS) team on the Europa Clipper Mission,
             and I am exploring how UVS can serve to improve Europa Clipper's ability to
