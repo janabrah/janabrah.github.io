@@ -15,6 +15,7 @@ import {
   PlanetaryRotation,
   PlanetesimalFormation,
   EMCoupling,
+  NotFound,
 } from './pages';
 import './App.css';
 
@@ -37,6 +38,7 @@ export default function App() {
           <Route path="career/planetary-science/projects/em-coupling" element={<EMCoupling />} />
           <Route path="career/forward" element={<Forward />} />
           <Route path="career/meter" element={<Meter />} />
+          <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
     </HashRouter>

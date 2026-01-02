@@ -12,3 +12,4 @@ export { default as Ferrovolcanism } from './projects/Ferrovolcanism';
 export { default as PlanetaryRotation } from './projects/PlanetaryRotation';
 export { default as PlanetesimalFormation } from './projects/PlanetesimalFormation';
 export { default as EMCoupling } from './projects/EMCoupling';
+export { default as NotFound } from './NotFound';

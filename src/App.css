@@ -293,6 +293,34 @@ a:hover {
   padding: 1rem;
 }
 
+.not-found {
+  text-align: center;
+}
+
+.not-found h1 {
+  font-size: 6rem;
+  margin-bottom: 0.5rem;
+  opacity: 0.3;
+}
+
+.not-found p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.back-home {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background: var(--accent-color);
+  color: var(--light-text);
+  border-radius: 4px;
+}
+
+.back-home:hover {
+  background: #2980b9;
+  color: var(--light-text);
+}
+
 @media (max-width: 768px) {
   .menu-toggle {
     display: block;
