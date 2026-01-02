@@ -1,21 +1,13 @@
 import { Link, Outlet, useLocation } from 'react-router-dom';
 import { useState } from 'react';
-
-const projects = [
-  { path: '/projects/europa-shape', label: "Europa's Global Shape" },
-  { path: '/projects/lunar-dynamo', label: 'Lunar Dynamo' },
-  { path: '/projects/ferrovolcanism', label: 'Ferrovolcanism' },
-  { path: '/projects/planetary-rotation', label: 'Planetary Rotation' },
-  { path: '/projects/planetesimal-formation', label: 'Planetesimal Formation' },
-  { path: '/projects/em-coupling', label: 'Electromagnetic Core-Mantle Coupling' },
-];
+import { careerItems } from '../config/career';
 
 export default function Layout() {
   const location = useLocation();
   const [menuOpen, setMenuOpen] = useState(false);
 
   const isActive = (path: string) => location.pathname === path;
-  const isProjectActive = () => location.pathname.startsWith('/projects');
+  const isCareerActive = () => location.pathname.startsWith('/career');
 
   return (
     <div className="layout">
@@ -50,31 +42,25 @@ export default function Layout() {
             </Link>
             <div className="dropdown">
               <Link
-                to="/projects"
-                className={`dropdown-toggle ${isProjectActive() ? 'active' : ''}`}
+                to="/career"
+                className={`dropdown-toggle ${isCareerActive() ? 'active' : ''}`}
+                onClick={() => setMenuOpen(false)}
               >
-                Projects
+                Career
               </Link>
               <div className="dropdown-menu">
-                {projects.map((project) => (
+                {careerItems.map((item) => (
                   <Link
-                    key={project.path}
-                    to={project.path}
-                    className={isActive(project.path) ? 'active' : ''}
+                    key={item.path}
+                    to={item.path}
+                    className={location.pathname.startsWith(item.path) ? 'active' : ''}
                     onClick={() => setMenuOpen(false)}
                   >
-                    {project.label}
+                    {item.label}
                   </Link>
                 ))}
               </div>
             </div>
-            <Link
-              to="/publications"
-              className={isActive('/publications') ? 'active' : ''}
-              onClick={() => setMenuOpen(false)}
-            >
-              Publications
-            </Link>
             <a href="/CV.pdf" target="_blank" rel="noopener noreferrer">
               CV
             </a>

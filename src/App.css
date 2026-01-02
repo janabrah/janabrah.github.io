@@ -244,6 +244,42 @@ a:hover {
   opacity: 0.9;
 }
 
+/* Career links */
+.career-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.career-link-card {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1.5rem;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+  color: var(--light-text);
+  display: block;
+  text-align: center;
+}
+
+.career-link-card:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-4px);
+  color: var(--light-text);
+}
+
+.career-link-card h2 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  color: var(--accent-color);
+}
+
+.career-link-card p {
+  font-size: 0.95rem;
+  margin-bottom: 0;
+  opacity: 0.9;
+}
+
 /* Footer */
 .footer {
   background: var(--header-bg);

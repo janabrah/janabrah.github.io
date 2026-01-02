@@ -5,6 +5,10 @@ import {
   Contact,
   Projects,
   Publications,
+  Career,
+  PlanetaryScience,
+  Forward,
+  Meter,
   EuropaShape,
   LunarDynamo,
   Ferrovolcanism,
@@ -21,14 +25,20 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="contact" element={<Contact />} />
-          <Route path="projects" element={<Projects />} />
-          <Route path="projects/europa-shape" element={<EuropaShape />} />
-          <Route path="projects/lunar-dynamo" element={<LunarDynamo />} />
-          <Route path="projects/ferrovolcanism" element={<Ferrovolcanism />} />
-          <Route path="projects/planetary-rotation" element={<PlanetaryRotation />} />
-          <Route path="projects/planetesimal-formation" element={<PlanetesimalFormation />} />
-          <Route path="projects/em-coupling" element={<EMCoupling />} />
-          <Route path="publications" element={<Publications />} />
+
+          {/* Career routes */}
+          <Route path="career" element={<Career />} />
+          <Route path="career/planetary-science" element={<PlanetaryScience />} />
+          <Route path="career/planetary-science/projects" element={<Projects />} />
+          <Route path="career/planetary-science/publications" element={<Publications />} />
+          <Route path="career/planetary-science/projects/europa-shape" element={<EuropaShape />} />
+          <Route path="career/planetary-science/projects/lunar-dynamo" element={<LunarDynamo />} />
+          <Route path="career/planetary-science/projects/ferrovolcanism" element={<Ferrovolcanism />} />
+          <Route path="career/planetary-science/projects/planetary-rotation" element={<PlanetaryRotation />} />
+          <Route path="career/planetary-science/projects/planetesimal-formation" element={<PlanetesimalFormation />} />
+          <Route path="career/planetary-science/projects/em-coupling" element={<EMCoupling />} />
+          <Route path="career/forward" element={<Forward />} />
+          <Route path="career/meter" element={<Meter />} />
         </Route>
       </Routes>
     </HashRouter>

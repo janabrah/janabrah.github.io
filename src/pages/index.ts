@@ -2,6 +2,14 @@ export { default as Home } from './Home';
 export { default as Contact } from './Contact';
 export { default as Projects } from './Projects';
 export { default as Publications } from './Publications';
+
+// Career pages
+export { default as Career } from './career/Career';
+export { default as PlanetaryScience } from './career/PlanetaryScience';
+export { default as Forward } from './career/Forward';
+export { default as Meter } from './career/Meter';
+
+// Project detail pages
 export { default as EuropaShape } from './projects/EuropaShape';
 export { default as LunarDynamo } from './projects/LunarDynamo';
 export { default as Ferrovolcanism } from './projects/Ferrovolcanism';

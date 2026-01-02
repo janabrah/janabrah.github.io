@@ -2,32 +2,32 @@ import { Link } from 'react-router-dom';
 
 const projects = [
   {
-    path: '/projects/europa-shape',
+    path: '/career/planetary-science/projects/europa-shape',
     title: "Europa's Global Shape",
     description: 'Measuring Europa\'s long wavelength shape using UV stellar occultations on Europa Clipper.',
   },
   {
-    path: '/projects/lunar-dynamo',
+    path: '/career/planetary-science/projects/lunar-dynamo',
     title: 'Lunar Dynamo',
     description: 'Investigating the mechanisms that powered the ancient lunar magnetic field.',
   },
   {
-    path: '/projects/ferrovolcanism',
+    path: '/career/planetary-science/projects/ferrovolcanism',
     title: 'Ferrovolcanism',
     description: 'Exploring volcanic eruptions of molten iron on metallic asteroids.',
   },
   {
-    path: '/projects/planetary-rotation',
+    path: '/career/planetary-science/projects/planetary-rotation',
     title: 'Planetary Rotation',
     description: 'Studying the rotational dynamics of planetary bodies.',
   },
   {
-    path: '/projects/planetesimal-formation',
+    path: '/career/planetary-science/projects/planetesimal-formation',
     title: 'Planetesimal Formation',
     description: 'Understanding how the building blocks of planets formed in the early solar system.',
   },
   {
-    path: '/projects/em-coupling',
+    path: '/career/planetary-science/projects/em-coupling',
     title: 'Electromagnetic Core-Mantle Coupling',
     description: 'Investigating electromagnetic interactions between planetary cores and mantles.',
   },
