@@ -1,8 +1,10 @@
 import { Link, Outlet, useLocation } from 'react-router-dom';
 import { useState } from 'react';
 import { CAREER_ITEMS } from '../config/career';
+import usePageTracking from '../hooks/usePageTracking';
 
 export default function Layout() {
+  usePageTracking();
   const location = useLocation();
   const [menuOpen, setMenuOpen] = useState(false);
 
