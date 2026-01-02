@@ -56,7 +56,3 @@ export const FORWARD_ALL_PROJECTS = [
   ...FORWARD_OPERATIONS_PROJECTS,
   ...FORWARD_SOFTWARE_PROJECTS,
 ];
-
-export const FORWARD_PROJECTS_BY_ID = Object.fromEntries(
-  FORWARD_ALL_PROJECTS.map((p) => [p.id, p])
-) as Record<string, typeof SCHEDULING>;

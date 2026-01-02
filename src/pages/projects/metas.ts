@@ -54,7 +54,3 @@ export const PROJECT_METAS = [
   PLANETESIMAL_FORMATION,
   EM_COUPLING,
 ];
-
-export const PROJECTS_BY_ID = Object.fromEntries(
-  PROJECT_METAS.map((p) => [p.id, p])
-) as Record<string, typeof EUROPA_SHAPE>;

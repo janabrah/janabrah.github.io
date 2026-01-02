@@ -37,7 +37,3 @@ export const METER_PROJECTS = [
   NETWORK_DIAGNOSTICS,
   DASHBOARD,
 ];
-
-export const METER_PROJECTS_BY_ID = Object.fromEntries(
-  METER_PROJECTS.map((p) => [p.id, p])
-) as Record<string, typeof TRIDENT>;
