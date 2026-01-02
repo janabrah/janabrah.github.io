@@ -121,6 +121,35 @@ a:hover {
   background: rgba(255, 255, 255, 0.1);
 }
 
+.cv-link-wrapper {
+  position: relative;
+  padding-bottom: 0.5rem;
+  margin-bottom: -0.5rem;
+}
+
+.cv-tooltip {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background: rgba(52, 152, 219, 0.5);
+  color: var(--light-text);
+  padding: 0.75rem 1rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  white-space: nowrap;
+  z-index: 1000;
+}
+
+.cv-tooltip a {
+  color: var(--light-text);
+  text-decoration: underline;
+  padding: 0;
+}
+
+.cv-tooltip a:hover {
+  color: #cce5f5;
+}
+
 .menu-toggle {
   display: none;
   background: none;

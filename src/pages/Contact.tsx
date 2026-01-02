@@ -1,40 +1,38 @@
 import { CobyPage } from '../components/PageWrappers';
 
+export const LINKEDIN_URL = 'https://www.linkedin.com/in/coby-abrahams/';
+
 export default function Contact() {
   return (
-    <CobyPage className="contact-page">
+    <CobyPage className='contact-page'>
       <h1>Contact Information</h1>
       <p>Email me at jacobnabrahams(at)gmail[dot]com</p>
       <p>
         I'm also on{' '}
-        <a
-          href="https://www.linkedin.com/in/coby-abrahams/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href={LINKEDIN_URL} target='_blank' rel='noopener noreferrer'>
           LinkedIn
         </a>
         , Twitter at{' '}
         <a
-          href="https://twitter.com/cobyabr"
-          target="_blank"
-          rel="noopener noreferrer"
+          href='https://twitter.com/cobyabr'
+          target='_blank'
+          rel='noopener noreferrer'
         >
           @cobyabr
         </a>
         , and I have occasionally-updated pages with{' '}
         <a
-          href="https://orcid.org/0000-0003-2270-0801"
-          target="_blank"
-          rel="noopener noreferrer"
+          href='https://orcid.org/0000-0003-2270-0801'
+          target='_blank'
+          rel='noopener noreferrer'
         >
           ORCID
         </a>{' '}
         and{' '}
         <a
-          href="https://scholar.google.com/citations?user=kerVazMAAAAJ&hl=en"
-          target="_blank"
-          rel="noopener noreferrer"
+          href='https://scholar.google.com/citations?user=kerVazMAAAAJ&hl=en'
+          target='_blank'
+          rel='noopener noreferrer'
         >
           Google Scholar
         </a>
