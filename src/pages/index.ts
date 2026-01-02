@@ -1,0 +1,10 @@
+export { default as Home } from './Home';
+export { default as Contact } from './Contact';
+export { default as Projects } from './Projects';
+export { default as Publications } from './Publications';
+export { default as EuropaShape } from './projects/EuropaShape';
+export { default as LunarDynamo } from './projects/LunarDynamo';
+export { default as Ferrovolcanism } from './projects/Ferrovolcanism';
+export { default as PlanetaryRotation } from './projects/PlanetaryRotation';
+export { default as PlanetesimalFormation } from './projects/PlanetesimalFormation';
+export { default as EMCoupling } from './projects/EMCoupling';
