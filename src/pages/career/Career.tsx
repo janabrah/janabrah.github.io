@@ -11,6 +11,7 @@ export default function Career() {
             {careerItems.map((item) => (
               <Link key={item.path} to={item.path} className="career-link-card">
                 <h2>{item.label}</h2>
+                {item.description && <p>{item.description}</p>}
               </Link>
             ))}
           </div>

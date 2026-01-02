@@ -18,15 +18,13 @@ import {
 } from './pages';
 import './App.css';
 
-function App() {
+export default function App() {
   return (
     <HashRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="contact" element={<Contact />} />
-
-          {/* Career routes */}
           <Route path="career" element={<Career />} />
           <Route path="career/planetary-science" element={<PlanetaryScience />} />
           <Route path="career/planetary-science/projects" element={<Projects />} />
@@ -44,5 +42,3 @@ function App() {
     </HashRouter>
   );
 }
-
-export default App;
