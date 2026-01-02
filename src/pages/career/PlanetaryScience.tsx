@@ -11,11 +11,17 @@ export default function PlanetaryScience() {
         focused on the interiors and evolution of planetary bodies.
       </p>
 
-      <div className="career-links">
-        <Link to="/career/planetary-science/projects" className="career-link-card">
+      <div className='career-links'>
+        <Link
+          to='/career/planetary-science/projects'
+          className='career-link-card'
+        >
           <h2>Projects</h2>
         </Link>
-        <Link to="/career/planetary-science/publications" className="career-link-card">
+        <Link
+          to='/career/planetary-science/publications'
+          className='career-link-card'
+        >
           <h2>Publications</h2>
         </Link>
       </div>

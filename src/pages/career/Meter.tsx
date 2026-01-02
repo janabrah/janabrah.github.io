@@ -12,9 +12,9 @@ export default function Meter() {
         as we grow.
       </p>
 
-      <div className="projects-grid">
+      <div className='projects-grid'>
         {METER_PROJECTS.map((project) => (
-          <Link key={project.path} to={project.path} className="project-card">
+          <Link key={project.path} to={project.path} className='project-card'>
             <h2>{project.title}</h2>
             <p>{project.summary}</p>
           </Link>

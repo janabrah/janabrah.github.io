@@ -11,9 +11,9 @@ export default function ForwardOperations() {
         onboarding for our remote fleet of healthcare workers.
       </p>
 
-      <div className="projects-grid">
+      <div className='projects-grid'>
         {FORWARD_OPERATIONS_PROJECTS.map((project) => (
-          <Link key={project.path} to={project.path} className="project-card">
+          <Link key={project.path} to={project.path} className='project-card'>
             <h2>{project.title}</h2>
             <p>{project.summary}</p>
           </Link>

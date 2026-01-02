@@ -9,5 +9,5 @@ export const ALL_PROJECTS = [
 ];
 
 export const ALL_PROJECTS_BY_ID = Object.fromEntries(
-  ALL_PROJECTS.map((p) => [p.id, p])
+  ALL_PROJECTS.map((p) => [p.id, p]),
 ) as Record<string, (typeof ALL_PROJECTS)[number]>;

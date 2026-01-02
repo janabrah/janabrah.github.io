@@ -17,15 +17,15 @@ export default function HoverCard({ projectId, children }: HoverCardProps) {
 
   return (
     <span
-      className="hover-card-wrapper"
+      className='hover-card-wrapper'
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      <Link to={project.path} className="hover-card-link">
+      <Link to={project.path} className='hover-card-link'>
         {children}
       </Link>
       {isHovered && (
-        <div className="hover-card-popup">
+        <div className='hover-card-popup'>
           <h4>{project.title}</h4>
           <p>{project.summary}</p>
         </div>
