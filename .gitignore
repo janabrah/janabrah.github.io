@@ -4,7 +4,8 @@ CLAUDE.md
 # Dependencies
 node_modules
 
-# Build output (docs/ is committed for GitHub Pages)
+# Build output
+docs
 dist-ssr
 
 # Logs
