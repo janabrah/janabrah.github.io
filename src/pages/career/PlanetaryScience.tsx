@@ -11,7 +11,7 @@ export default function PlanetaryScience() {
     <CobyPage>
       <PageHeader
         title='Planetary Science'
-        description='I earned my PhD in Planetary Science from UC Santa Cruz, following an undergraduate degree from Caltech in Physics, Geophysics, and English. My research focused on the interiors and evolution of planetary bodies.'
+        description='I earned my PhD in Planetary Science from UC Santa Cruz, following an undergraduate degree from Caltech in Physics, Geophysics, and English. My research focused on the interiors and evolution of planetary bodies. My work was generally a mix of computational modelling and explicit analytical solutions. My modelling was mostly in Python/numpy/scipy, but I also worked in Mathematica, Matlab a little, and translated some older Fortran projects into Python.'
       />
       <CardGrid className='career-links'>
         <LinkCard

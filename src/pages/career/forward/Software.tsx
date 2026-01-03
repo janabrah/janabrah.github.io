@@ -11,7 +11,7 @@ export default function ForwardSoftware() {
     <ForwardPage>
       <PageHeader
         title='Forward Software Engineering'
-        description='I moved over to be a software engineer where I continued building scalable tools for operations, as well as contributing to software infrastructure and IT systems.'
+        description='I moved over to be a software engineer where I continued building scalable tools for operations, as well as contributing to software infrastructure and IT systems. I worked primarily in Javascript, largely in the Google Apps Script environment.'
       />
       <CardGrid>
         {FORWARD_SOFTWARE_PROJECTS.map((project) => (
