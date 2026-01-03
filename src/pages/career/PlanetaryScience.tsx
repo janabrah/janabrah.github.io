@@ -7,8 +7,8 @@ export default function PlanetaryScience() {
       <h1>Planetary Science</h1>
       <p>
         I earned my PhD in Planetary Science from UC Santa Cruz, following an
-        undergraduate degree from Caltech in Physics and Geophysics. My research
-        focused on the interiors and evolution of planetary bodies.
+        undergraduate degree from Caltech in Physics, Geophysics, and English.
+        My research focused on the interiors and evolution of planetary bodies.
       </p>
 
       <div className='career-links'>

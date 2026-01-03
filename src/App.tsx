@@ -31,6 +31,11 @@ import {
   ProjectManagement,
   NetworkDiagnostics,
   Dashboard,
+  // Undergrad
+  Undergrad,
+  HChondrite,
+  MercuryDensity,
+  HumanMagnetoreception,
 } from './pages';
 import './App.css';
 
@@ -125,6 +130,18 @@ export default function App() {
             element={<NetworkDiagnostics />}
           />
           <Route path='career/meter/dashboard' element={<Dashboard />} />
+
+          {/* Undergrad */}
+          <Route path='career/undergrad' element={<Undergrad />} />
+          <Route path='career/undergrad/h-chondrite' element={<HChondrite />} />
+          <Route
+            path='career/undergrad/mercury-density'
+            element={<MercuryDensity />}
+          />
+          <Route
+            path='career/undergrad/human-magnetoreception'
+            element={<HumanMagnetoreception />}
+          />
 
           <Route path='*' element={<NotFound />} />
         </Route>

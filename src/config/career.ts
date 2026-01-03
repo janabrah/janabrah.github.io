@@ -6,4 +6,5 @@ export const CAREER_ITEMS = [
     label: 'Planetary Science',
     description: '2017-2022',
   },
+  { path: '/career/undergrad', label: 'Undergrad', description: '2013-2017' },
 ];

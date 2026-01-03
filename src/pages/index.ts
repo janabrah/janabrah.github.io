@@ -31,3 +31,9 @@ export { default as Trident } from './career/meter/Trident';
 export { default as ProjectManagement } from './career/meter/ProjectManagement';
 export { default as NetworkDiagnostics } from './career/meter/NetworkDiagnostics';
 export { default as Dashboard } from './career/meter/Dashboard';
+
+// Undergrad
+export { default as Undergrad } from './career/Undergrad';
+export { default as HChondrite } from './career/undergrad/HChondrite';
+export { default as MercuryDensity } from './career/undergrad/MercuryDensity';
+export { default as HumanMagnetoreception } from './career/undergrad/HumanMagnetoreception';
