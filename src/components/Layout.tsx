@@ -1,8 +1,8 @@
 import { Link, Outlet, useLocation } from 'react-router-dom';
 import { useState } from 'react';
 import { CAREER_ITEMS } from '../config/career';
+import { LINKEDIN_URL } from '../config/social';
 import usePageTracking from '../hooks/usePageTracking';
-import { LINKEDIN_URL } from '../pages/Contact';
 
 export default function Layout() {
   usePageTracking();

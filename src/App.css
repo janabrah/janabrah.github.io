@@ -209,8 +209,10 @@ a:hover {
   color: #85c1e9;
 }
 
-.about-section {
-  overflow: hidden;
+.about-section::after {
+  content: '';
+  display: table;
+  clear: both;
 }
 
 .headshot {

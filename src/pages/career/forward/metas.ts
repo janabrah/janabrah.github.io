@@ -1,4 +1,3 @@
-// Forward Operations projects
 export const SCHEDULING = {
   id: 'scheduling',
   path: '/career/forward/operations/scheduling',
@@ -15,7 +14,6 @@ export const ONBOARDING = {
   background: undefined,
 };
 
-// Forward Software projects
 export const ALLOCATIONS = {
   id: 'allocations',
   path: '/career/forward/software/allocations',

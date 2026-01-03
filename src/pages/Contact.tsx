@@ -1,6 +1,10 @@
 import { CobyPage } from '../components/PageWrappers';
-
-export const LINKEDIN_URL = 'https://www.linkedin.com/in/coby-abrahams/';
+import {
+  LINKEDIN_URL,
+  TWITTER_URL,
+  ORCID_URL,
+  GOOGLE_SCHOLAR_URL,
+} from '../config/social';
 
 export default function Contact() {
   return (
@@ -13,27 +17,15 @@ export default function Contact() {
           LinkedIn
         </a>
         , Twitter at{' '}
-        <a
-          href='https://twitter.com/cobyabr'
-          target='_blank'
-          rel='noopener noreferrer'
-        >
+        <a href={TWITTER_URL} target='_blank' rel='noopener noreferrer'>
           @cobyabr
         </a>
         , and I have occasionally-updated pages with{' '}
-        <a
-          href='https://orcid.org/0000-0003-2270-0801'
-          target='_blank'
-          rel='noopener noreferrer'
-        >
+        <a href={ORCID_URL} target='_blank' rel='noopener noreferrer'>
           ORCID
         </a>{' '}
         and{' '}
-        <a
-          href='https://scholar.google.com/citations?user=kerVazMAAAAJ&hl=en'
-          target='_blank'
-          rel='noopener noreferrer'
-        >
+        <a href={GOOGLE_SCHOLAR_URL} target='_blank' rel='noopener noreferrer'>
           Google Scholar
         </a>
         .

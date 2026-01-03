@@ -1,4 +1,5 @@
 import { CobyPage } from '../components/PageWrappers';
+import { GOOGLE_SCHOLAR_URL, ORCID_URL } from '../config/social';
 
 export default function Publications() {
   return (
@@ -9,19 +10,11 @@ export default function Publications() {
       <h1>Publications and Presentations</h1>
       <p>
         For an up-to-date list of publications, please visit my{' '}
-        <a
-          href='https://scholar.google.com/citations?user=kerVazMAAAAJ&hl=en'
-          target='_blank'
-          rel='noopener noreferrer'
-        >
+        <a href={GOOGLE_SCHOLAR_URL} target='_blank' rel='noopener noreferrer'>
           Google Scholar
         </a>{' '}
         or{' '}
-        <a
-          href='https://orcid.org/0000-0003-2270-0801'
-          target='_blank'
-          rel='noopener noreferrer'
-        >
+        <a href={ORCID_URL} target='_blank' rel='noopener noreferrer'>
           ORCID
         </a>{' '}
         profiles.
