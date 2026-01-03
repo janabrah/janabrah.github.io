@@ -15,12 +15,7 @@ export default function Meter() {
       />
       <CardGrid>
         {METER_PROJECTS.map((project) => (
-          <LinkCard
-            key={project.path}
-            to={project.path}
-            title={project.title}
-            description={project.summary}
-          />
+          <LinkCard key={project.id} project={project} />
         ))}
       </CardGrid>
     </MeterPage>

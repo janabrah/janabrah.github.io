@@ -1,56 +1,58 @@
-export const EUROPA_SHAPE = {
+import type { ProjectMeta } from '../../types';
+
+export const EUROPA_SHAPE: ProjectMeta = {
   id: 'europa-shape',
   path: '/career/planetary-science/projects/europa-shape',
   title: "Europa's Global Shape",
-  summary:
+  description:
     "Measuring Europa's long wavelength shape using UV stellar occultations on the Europa Clipper Mission.",
   background: '/images/europa-background-invert.jpg',
 };
 
-export const LUNAR_DYNAMO = {
+export const LUNAR_DYNAMO: ProjectMeta = {
   id: 'lunar-dynamo',
   path: '/career/planetary-science/projects/lunar-dynamo',
   title: 'Lunar Dynamo',
-  summary:
+  description:
     'Investigating the mechanisms that powered the ancient lunar magnetic field.',
   background: '/images/lunar-dynamo-background.gif',
 };
 
-export const FERROVOLCANISM = {
+export const FERROVOLCANISM: ProjectMeta = {
   id: 'ferrovolcanism',
   path: '/career/planetary-science/projects/ferrovolcanism',
   title: 'Ferrovolcanism',
-  summary: 'Exploring volcanic eruptions of molten iron on metallic asteroids.',
+  description:
+    'Exploring volcanic eruptions of molten iron on metallic asteroids.',
   background: '/images/Ferrovolcanism-Art-Crop.jpg',
 };
 
-export const PLANETARY_ROTATION = {
+export const PLANETARY_ROTATION: ProjectMeta = {
   id: 'planetary-rotation',
   path: '/career/planetary-science/projects/planetary-rotation',
   title: 'Planetary Rotation',
-  summary: 'Studying the rotational dynamics of planetary bodies.',
-  background: undefined,
+  description: 'Studying the rotational dynamics of planetary bodies.',
 };
 
-export const PLANETESIMAL_FORMATION = {
+export const PLANETESIMAL_FORMATION: ProjectMeta = {
   id: 'planetesimal-formation',
   path: '/career/planetary-science/projects/planetesimal-formation',
   title: 'Planetesimal Formation',
-  summary:
+  description:
     'Understanding how the building blocks of planets formed in the early solar system.',
   background: '/images/moderately-volatile-background.png',
 };
 
-export const EM_COUPLING = {
+export const EM_COUPLING: ProjectMeta = {
   id: 'em-coupling',
   path: '/career/planetary-science/projects/em-coupling',
   title: 'Electromagnetic Core-Mantle Coupling',
-  summary:
+  description:
     'Investigating electromagnetic interactions between planetary cores and mantles.',
   background: '/images/em-coupling-background.jpg',
 };
 
-export const PROJECT_METAS = [
+export const PROJECT_METAS: ProjectMeta[] = [
   EUROPA_SHAPE,
   LUNAR_DYNAMO,
   FERROVOLCANISM,

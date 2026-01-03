@@ -8,12 +8,7 @@ export default function Projects() {
       <PageHeader title='Research Projects' />
       <CardGrid>
         {PROJECT_METAS.map((project) => (
-          <LinkCard
-            key={project.path}
-            to={project.path}
-            title={project.title}
-            description={project.summary}
-          />
+          <LinkCard key={project.id} project={project} />
         ))}
       </CardGrid>
     </CobyPage>

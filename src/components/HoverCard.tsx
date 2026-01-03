@@ -27,7 +27,7 @@ export default function HoverCard({ projectId, children }: HoverCardProps) {
       {isHovered && (
         <div className='hover-card-popup'>
           <h4>{project.title}</h4>
-          <p>{project.summary}</p>
+          <p>{project.description}</p>
         </div>
       )}
     </span>

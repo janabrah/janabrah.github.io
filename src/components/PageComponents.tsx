@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import type { ProjectMeta } from '../types';
 
 interface PageHeaderProps {
   title: string;
@@ -15,27 +16,17 @@ export function PageHeader({ title, description }: PageHeaderProps) {
   );
 }
 
-interface PreviewItem {
-  title: string;
-  path: string;
-}
-
 interface LinkCardProps {
-  to: string;
-  title: string;
-  description?: string;
+  project: ProjectMeta;
   className?: string;
-  preview?: PreviewItem[];
 }
 
 export function LinkCard({
-  to,
-  title,
-  description,
+  project,
   className = 'project-card',
-  preview,
 }: LinkCardProps) {
   const [hover, setHover] = useState(false);
+  const preview = project.children;
 
   return (
     <div
@@ -43,9 +34,9 @@ export function LinkCard({
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
     >
-      <Link to={to} className={className}>
-        <h2>{title}</h2>
-        {description && <p>{description}</p>}
+      <Link to={project.path} className={className}>
+        <h2>{project.title}</h2>
+        {project.description && <p>{project.description}</p>}
       </Link>
       {preview && preview.length > 0 && hover && (
         <div className='link-card-preview'>

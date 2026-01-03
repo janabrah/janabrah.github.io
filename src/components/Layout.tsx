@@ -57,14 +57,14 @@ export default function Layout() {
               <div className='dropdown-menu'>
                 {CAREER_ITEMS.map((item) => (
                   <Link
-                    key={item.path}
+                    key={item.id}
                     to={item.path}
                     className={
                       location.pathname.startsWith(item.path) ? 'active' : ''
                     }
                     onClick={() => setMenuOpen(false)}
                   >
-                    {item.label}
+                    {item.title}
                   </Link>
                 ))}
               </div>
