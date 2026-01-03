@@ -15,6 +15,9 @@ import {
   PlanetaryRotation,
   PlanetesimalFormation,
   EMCoupling,
+  PlanetaryScienceTeaching,
+  IntroGeophysicsTA,
+  PlanetaryInteriors,
   // Forward
   Forward,
   ForwardOperations,
@@ -33,9 +36,14 @@ import {
   Dashboard,
   // Undergrad
   Undergrad,
+  UndergradResearch,
+  UndergradTeaching,
   HChondrite,
   MercuryDensity,
   HumanMagnetoreception,
+  IntroGeology,
+  IntroGeophysicsUndergrad,
+  Cooking,
 } from './pages';
 import './App.css';
 
@@ -62,6 +70,10 @@ export default function App() {
             element={<Publications />}
           />
           <Route
+            path='career/planetary-science/teaching'
+            element={<PlanetaryScienceTeaching />}
+          />
+          <Route
             path='career/planetary-science/projects/europa-shape'
             element={<EuropaShape />}
           />
@@ -84,6 +96,14 @@ export default function App() {
           <Route
             path='career/planetary-science/projects/em-coupling'
             element={<EMCoupling />}
+          />
+          <Route
+            path='career/planetary-science/intro-geophysics'
+            element={<IntroGeophysicsTA />}
+          />
+          <Route
+            path='career/planetary-science/planetary-interiors'
+            element={<PlanetaryInteriors />}
           />
 
           {/* Forward */}
@@ -133,6 +153,14 @@ export default function App() {
 
           {/* Undergrad */}
           <Route path='career/undergrad' element={<Undergrad />} />
+          <Route
+            path='career/undergrad/research'
+            element={<UndergradResearch />}
+          />
+          <Route
+            path='career/undergrad/teaching'
+            element={<UndergradTeaching />}
+          />
           <Route path='career/undergrad/h-chondrite' element={<HChondrite />} />
           <Route
             path='career/undergrad/mercury-density'
@@ -142,6 +170,15 @@ export default function App() {
             path='career/undergrad/human-magnetoreception'
             element={<HumanMagnetoreception />}
           />
+          <Route
+            path='career/undergrad/intro-geology'
+            element={<IntroGeology />}
+          />
+          <Route
+            path='career/undergrad/intro-geophysics'
+            element={<IntroGeophysicsUndergrad />}
+          />
+          <Route path='career/undergrad/cooking' element={<Cooking />} />
 
           <Route path='*' element={<NotFound />} />
         </Route>

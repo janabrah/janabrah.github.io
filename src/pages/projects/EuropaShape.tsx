@@ -1,10 +1,10 @@
 import { CobyPage } from '../../components/PageWrappers';
-import { EUROPA_SHAPE as meta } from './metas';
+import { EUROPA_SHAPE } from './metas';
 
 export default function EuropaShape() {
   return (
-    <CobyPage className='project-page' background={meta.background}>
-      <h1>{meta.title}</h1>
+    <CobyPage className='project-page' background={EUROPA_SHAPE.background}>
+      <h1>{EUROPA_SHAPE.title}</h1>
       <p>
         I am a member of the UV Spectrograph (UVS) team on the Europa Clipper
         Mission, and I am exploring how UVS can serve to improve Europa

@@ -1,10 +1,10 @@
 import { CobyPage } from '../../components/PageWrappers';
-import { LUNAR_DYNAMO as meta } from './metas';
+import { LUNAR_DYNAMO } from './metas';
 
 export default function LunarDynamo() {
   return (
-    <CobyPage className='project-page' background={meta.background}>
-      <h1>{meta.title}</h1>
+    <CobyPage className='project-page' background={LUNAR_DYNAMO.background}>
+      <h1>{LUNAR_DYNAMO.title}</h1>
       <p>
         The Moon once had a magnetic field, as evidenced by magnetized rocks
         returned by the Apollo missions. Understanding how this ancient dynamo

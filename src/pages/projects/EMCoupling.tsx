@@ -1,10 +1,10 @@
 import { CobyPage } from '../../components/PageWrappers';
-import { EM_COUPLING as meta } from './metas';
+import { EM_COUPLING } from './metas';
 
 export default function EMCoupling() {
   return (
-    <CobyPage className='project-page' background={meta.background}>
-      <h1>{meta.title}</h1>
+    <CobyPage className='project-page' background={EM_COUPLING.background}>
+      <h1>{EM_COUPLING.title}</h1>
       <p>
         The electromagnetic interaction between a planet's liquid metallic core
         and its overlying mantle can significantly affect the planet's

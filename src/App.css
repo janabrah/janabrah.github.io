@@ -196,6 +196,13 @@ a:hover {
   padding-bottom: 0.5rem;
 }
 
+.page-content > h2 {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: var(--accent-color);
+}
+
 .page-content p {
   margin-bottom: 1rem;
   font-size: 1.1rem;

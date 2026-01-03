@@ -1,6 +1,5 @@
 import type { ProjectMeta } from '../types';
 import { METER_PROJECTS } from '../pages/career/meter/metas';
-import { UNDERGRAD_PROJECTS } from '../pages/career/undergrad/metas';
 
 export const CAREER_ITEMS: ProjectMeta[] = [
   {
@@ -44,6 +43,11 @@ export const CAREER_ITEMS: ProjectMeta[] = [
         title: 'Publications',
         path: '/career/planetary-science/publications',
       },
+      {
+        id: 'ps-teaching',
+        title: 'Teaching',
+        path: '/career/planetary-science/teaching',
+      },
     ],
   },
   {
@@ -51,6 +55,17 @@ export const CAREER_ITEMS: ProjectMeta[] = [
     path: '/career/undergrad',
     title: 'Undergrad',
     description: '2013-2017',
-    children: UNDERGRAD_PROJECTS,
+    children: [
+      {
+        id: 'undergrad-research',
+        title: 'Research',
+        path: '/career/undergrad/research',
+      },
+      {
+        id: 'undergrad-teaching',
+        title: 'Teaching',
+        path: '/career/undergrad/teaching',
+      },
+    ],
   },
 ];

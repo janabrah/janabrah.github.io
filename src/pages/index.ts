@@ -13,6 +13,9 @@ export { default as Ferrovolcanism } from './projects/Ferrovolcanism';
 export { default as PlanetaryRotation } from './projects/PlanetaryRotation';
 export { default as PlanetesimalFormation } from './projects/PlanetesimalFormation';
 export { default as EMCoupling } from './projects/EMCoupling';
+export { default as PlanetaryScienceTeaching } from './career/planetaryscience/Teaching';
+export { default as IntroGeophysicsTA } from './career/planetaryscience/IntroGeophysicsTA';
+export { default as PlanetaryInteriors } from './career/planetaryscience/PlanetaryInteriors';
 
 // Forward
 export { default as Forward } from './career/Forward';
@@ -34,6 +37,11 @@ export { default as Dashboard } from './career/meter/Dashboard';
 
 // Undergrad
 export { default as Undergrad } from './career/Undergrad';
+export { default as UndergradResearch } from './career/undergrad/Research';
+export { default as UndergradTeaching } from './career/undergrad/Teaching';
 export { default as HChondrite } from './career/undergrad/HChondrite';
 export { default as MercuryDensity } from './career/undergrad/MercuryDensity';
 export { default as HumanMagnetoreception } from './career/undergrad/HumanMagnetoreception';
+export { default as IntroGeology } from './career/undergrad/IntroGeology';
+export { default as IntroGeophysicsUndergrad } from './career/undergrad/IntroGeophysics';
+export { default as Cooking } from './career/undergrad/Cooking';

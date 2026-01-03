@@ -1,10 +1,10 @@
 import { CobyPage } from '../../components/PageWrappers';
-import { PLANETARY_ROTATION as meta } from './metas';
+import { PLANETARY_ROTATION } from './metas';
 
 export default function PlanetaryRotation() {
   return (
     <CobyPage className='project-page'>
-      <h1>{meta.title}</h1>
+      <h1>{PLANETARY_ROTATION.title}</h1>
       <p>
         The rotational dynamics of planetary bodies provide important
         constraints on their internal structure and evolution. My work in this

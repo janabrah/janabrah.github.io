@@ -5,6 +5,7 @@ import {
   CardGrid,
 } from '../../components/PageComponents';
 import { PROJECT_METAS } from '../projects/metas';
+import { PLANETARY_SCIENCE_TEACHING } from './planetaryscience/metas';
 import type { ProjectMeta } from '../../types';
 
 const PLANETARY_SCIENCE_SECTIONS: ProjectMeta[] = [
@@ -18,6 +19,12 @@ const PLANETARY_SCIENCE_SECTIONS: ProjectMeta[] = [
     id: 'ps-publications',
     path: '/career/planetary-science/publications',
     title: 'Publications',
+  },
+  {
+    id: 'ps-teaching',
+    path: '/career/planetary-science/teaching',
+    title: 'Teaching',
+    children: PLANETARY_SCIENCE_TEACHING,
   },
 ];
 

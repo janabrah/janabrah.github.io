@@ -1,10 +1,10 @@
 import { CobyPage } from '../../components/PageWrappers';
-import { FERROVOLCANISM as meta } from './metas';
+import { FERROVOLCANISM } from './metas';
 
 export default function Ferrovolcanism() {
   return (
-    <CobyPage className='project-page' background={meta.background}>
-      <h1>{meta.title}</h1>
+    <CobyPage className='project-page' background={FERROVOLCANISM.background}>
+      <h1>{FERROVOLCANISM.title}</h1>
       <p>
         Ferrovolcanism refers to volcanic eruptions of molten iron, which may
         occur on metallic asteroids—the exposed iron cores of differentiated
