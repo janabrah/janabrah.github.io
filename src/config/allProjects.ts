@@ -17,6 +17,8 @@ export const ALL_PROJECTS: ProjectMeta[] = [
   ...PLANETARY_SCIENCE_TEACHING,
 ];
 
-export const ALL_PROJECTS_BY_ID = Object.fromEntries(
-  ALL_PROJECTS.map((p) => [p.id, p]),
-) as Record<string, ProjectMeta>;
+export const ALL_PROJECTS_BY_ID: Record<string, ProjectMeta> =
+  ALL_PROJECTS.reduce<Record<string, ProjectMeta>>((acc, p) => {
+    acc[p.id] = p;
+    return acc;
+  }, {});

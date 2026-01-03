@@ -4,7 +4,7 @@ interface PageWrapperProps {
 }
 
 interface CobyPageProps extends PageWrapperProps {
-  background?: string;
+  background?: string | undefined;
 }
 
 const DEFAULT_BACKGROUND = '/images/Ferrovolcanism-Art-Crop.jpg';
