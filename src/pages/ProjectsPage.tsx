@@ -1,19 +1,21 @@
-import { Link } from 'react-router-dom';
 import { CobyPage } from '../components/PageWrappers';
+import { PageHeader, LinkCard, CardGrid } from '../components/PageComponents';
 import { PROJECT_METAS } from './projects/metas';
 
 export default function Projects() {
   return (
     <CobyPage className='projects-page' background='/images/biking.jpeg'>
-      <h1>Research Projects</h1>
-      <div className='projects-grid'>
+      <PageHeader title='Research Projects' />
+      <CardGrid>
         {PROJECT_METAS.map((project) => (
-          <Link key={project.path} to={project.path} className='project-card'>
-            <h2>{project.title}</h2>
-            <p>{project.summary}</p>
-          </Link>
+          <LinkCard
+            key={project.path}
+            to={project.path}
+            title={project.title}
+            description={project.summary}
+          />
         ))}
-      </div>
+      </CardGrid>
     </CobyPage>
   );
 }

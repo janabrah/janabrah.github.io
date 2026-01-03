@@ -1,30 +1,29 @@
-import { Link } from 'react-router-dom';
 import { CobyPage } from '../../components/PageWrappers';
+import {
+  PageHeader,
+  LinkCard,
+  CardGrid,
+} from '../../components/PageComponents';
 
 export default function PlanetaryScience() {
   return (
     <CobyPage>
-      <h1>Planetary Science</h1>
-      <p>
-        I earned my PhD in Planetary Science from UC Santa Cruz, following an
-        undergraduate degree from Caltech in Physics, Geophysics, and English.
-        My research focused on the interiors and evolution of planetary bodies.
-      </p>
-
-      <div className='career-links'>
-        <Link
+      <PageHeader
+        title='Planetary Science'
+        description='I earned my PhD in Planetary Science from UC Santa Cruz, following an undergraduate degree from Caltech in Physics, Geophysics, and English. My research focused on the interiors and evolution of planetary bodies.'
+      />
+      <CardGrid className='career-links'>
+        <LinkCard
           to='/career/planetary-science/projects'
+          title='Projects'
           className='career-link-card'
-        >
-          <h2>Projects</h2>
-        </Link>
-        <Link
+        />
+        <LinkCard
           to='/career/planetary-science/publications'
+          title='Publications'
           className='career-link-card'
-        >
-          <h2>Publications</h2>
-        </Link>
-      </div>
+        />
+      </CardGrid>
     </CobyPage>
   );
 }
