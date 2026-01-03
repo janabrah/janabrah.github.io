@@ -4,6 +4,7 @@ import {
   LinkCard,
   CardGrid,
 } from '../../components/PageComponents';
+import { PROJECT_METAS } from '../projects/metas';
 
 export default function PlanetaryScience() {
   return (
@@ -17,6 +18,7 @@ export default function PlanetaryScience() {
           to='/career/planetary-science/projects'
           title='Projects'
           className='career-link-card'
+          preview={PROJECT_METAS}
         />
         <LinkCard
           to='/career/planetary-science/publications'

@@ -4,6 +4,10 @@ import {
   LinkCard,
   CardGrid,
 } from '../../components/PageComponents';
+import {
+  FORWARD_OPERATIONS_PROJECTS,
+  FORWARD_SOFTWARE_PROJECTS,
+} from './forward/metas';
 
 export default function Forward() {
   return (
@@ -18,12 +22,14 @@ export default function Forward() {
           title='Operations'
           description='2022-2023'
           className='career-link-card'
+          preview={FORWARD_OPERATIONS_PROJECTS}
         />
         <LinkCard
           to='/career/forward/software'
           title='Software Engineering'
           description='2023-2024'
           className='career-link-card'
+          preview={FORWARD_SOFTWARE_PROJECTS}
         />
       </CardGrid>
     </ForwardPage>

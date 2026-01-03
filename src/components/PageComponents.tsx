@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 interface PageHeaderProps {
@@ -14,11 +15,17 @@ export function PageHeader({ title, description }: PageHeaderProps) {
   );
 }
 
+interface PreviewItem {
+  title: string;
+  path: string;
+}
+
 interface LinkCardProps {
   to: string;
   title: string;
   description?: string;
   className?: string;
+  preview?: PreviewItem[];
 }
 
 export function LinkCard({
@@ -26,12 +33,32 @@ export function LinkCard({
   title,
   description,
   className = 'project-card',
+  preview,
 }: LinkCardProps) {
+  const [hover, setHover] = useState(false);
+
   return (
-    <Link to={to} className={className}>
-      <h2>{title}</h2>
-      {description && <p>{description}</p>}
-    </Link>
+    <div
+      className='link-card-wrapper'
+      onMouseEnter={() => setHover(true)}
+      onMouseLeave={() => setHover(false)}
+    >
+      <Link to={to} className={className}>
+        <h2>{title}</h2>
+        {description && <p>{description}</p>}
+      </Link>
+      {preview && preview.length > 0 && hover && (
+        <div className='link-card-preview'>
+          <ul>
+            {preview.map((item) => (
+              <li key={item.path}>
+                <Link to={item.path}>{item.title}</Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+    </div>
   );
 }
 

@@ -26,8 +26,8 @@ export const NETWORK_DIAGNOSTICS = {
 export const DASHBOARD = {
   id: 'dashboard',
   path: '/career/meter/dashboard',
-  title: 'Networking Dashboard',
-  summary: 'Contributing to make the networking dashboard more powerful.',
+  title: 'Meter Dashboard',
+  summary: 'Contributing to make our networking dashboard more powerful.',
   background: undefined,
 };
 
